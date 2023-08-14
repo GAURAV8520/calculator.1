@@ -52,31 +52,7 @@
         
     </div>
 
-    <script>
-        function changeBg(){
-            var images= [
-                '../images/1.jpg',
-                '../images/2.jpg',
-                '../images/3.jpg',
-                '../images/4.jpg',
-                '../images/5.jpg'
-            ]
-
-            var len =images.length;
-            function img(){
-                var random =Math.floor(Math.random()*len);
-            document.body.style.backgroundImage = "url("+images[random]+")";
-            }
-
-            img();
-
-            setInterval(img,1000);
-            
-
-
-        }
-        setInterval(changeBg,1000);
-    </script>
+   
     
 </body>
 </html>
